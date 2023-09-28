@@ -4,6 +4,7 @@
 body {
   background-color: #EEE;
   padding: 15px;
+  font-family: 'Inter', sans-serif;
 }
 .page-wraper {
   max-width: 390px;
@@ -11,5 +12,20 @@ body {
   border-radius: 20px;
   background: #FFF;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+}
+.header {
+  color: #ffffff;
   padding: 40px 42px 145px;
+  border-radius: 0px 0px 90px 90px;
+  background: linear-gradient(0deg, rgba(99, 99, 99, 0.20) 0%, rgba(99, 99, 99, 0.20) 100%), url('../img/a95d5cfa86f420479961b86ba9459eb4.png'), lightgray 50% / cover no-repeat;
+}
+.hello {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+.hello-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
